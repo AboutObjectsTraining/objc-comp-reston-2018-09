@@ -7,7 +7,6 @@ IB_DESIGNABLE
 @interface CoolViewCell ()
 @property (getter=isHighlighted, nonatomic) BOOL highlighted;
 @property (class, readonly, nonatomic) NSDictionary *textAttributes;
-
 @property (nonatomic) IBInspectable CGFloat borderWidth;
 @property (nonatomic) IBInspectable UIColor *borderColor;
 @end

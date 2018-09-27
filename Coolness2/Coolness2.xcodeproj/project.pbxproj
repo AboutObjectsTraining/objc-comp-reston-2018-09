@@ -15,6 +15,7 @@
 		ABE1B9C9215D2C9D0049B11E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1B9C4215D2C9C0049B11E /* AppDelegate.m */; };
 		ABE1B9CB215D2D1A0049B11E /* CoolStuff.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE1B9CA215D2D1A0049B11E /* CoolStuff.xib */; };
 		ABE1B9CE215D6B9D0049B11E /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1B9CD215D6B9D0049B11E /* UIView+Additions.m */; };
+		ABE1B9D1215D79DA0049B11E /* CoolView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1B9D0215D79DA0049B11E /* CoolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		ABE1B9CA215D2D1A0049B11E /* CoolStuff.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoolStuff.xib; sourceTree = "<group>"; };
 		ABE1B9CC215D6B9D0049B11E /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		ABE1B9CD215D6B9D0049B11E /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		ABE1B9CF215D79DA0049B11E /* CoolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolView.h; sourceTree = "<group>"; };
+		ABE1B9D0215D79DA0049B11E /* CoolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 			children = (
 				ABE1B9C5215D2C9D0049B11E /* AppDelegate.h */,
 				ABE1B9C4215D2C9C0049B11E /* AppDelegate.m */,
+				ABE1B9CF215D79DA0049B11E /* CoolView.h */,
+				ABE1B9D0215D79DA0049B11E /* CoolView.m */,
 				ABE1B9C2215D2C9C0049B11E /* CoolViewCell.h */,
 				ABE1B9C1215D2C9C0049B11E /* CoolViewCell.m */,
 				ABE1B9C6215D2C9D0049B11E /* CoolViewController.h */,
@@ -156,6 +161,7 @@
 				ABE1B9B2215D2BC00049B11E /* main.m in Sources */,
 				ABE1B9CE215D6B9D0049B11E /* UIView+Additions.m in Sources */,
 				ABE1B9C7215D2C9D0049B11E /* CoolViewCell.m in Sources */,
+				ABE1B9D1215D79DA0049B11E /* CoolView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

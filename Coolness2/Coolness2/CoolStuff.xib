@@ -11,8 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoolViewController">
             <connections>
-                <outlet property="contentView" destination="rfr-av-PtB" id="4lZ-R0-FdA"/>
-                <outlet property="textField" destination="V6g-sH-in0" id="Dak-9F-lhR"/>
                 <outlet property="view" destination="pvX-Ea-izb" id="lgP-pI-cyU"/>
             </connections>
         </placeholder>
@@ -32,7 +30,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
-                                <outlet property="delegate" destination="-1" id="4Ba-9K-B9c"/>
+                                <outlet property="delegate" destination="rfr-av-PtB" id="KFX-9v-kCX"/>
                             </connections>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPi-FE-boE">
@@ -40,13 +38,13 @@
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Add"/>
                             <connections>
-                                <action selector="addCell" destination="-1" eventType="touchUpInside" id="MFO-uo-Rc5"/>
+                                <action selector="addCell" destination="rfr-av-PtB" eventType="touchUpInside" id="MG2-Te-hxG"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfr-av-PtB" userLabel="Content View">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfr-av-PtB" userLabel="Content View" customClass="CoolView">
                     <rect key="frame" x="0.0" y="94" width="375" height="731"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
@@ -86,6 +84,9 @@
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="textField" destination="V6g-sH-in0" id="6O8-6p-DWy"/>
+                    </connections>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

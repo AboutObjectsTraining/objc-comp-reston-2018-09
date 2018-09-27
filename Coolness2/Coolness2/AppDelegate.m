@@ -7,12 +7,10 @@
 {
     CGRect screenRect = UIScreen.mainScreen.bounds;
     self.window = [[UIWindow alloc] initWithFrame:screenRect];
-    
     CoolViewController *controller = [[CoolViewController alloc] initWithNibName:@"CoolStuff" bundle:nil];
     
     self.window.rootViewController = controller;
     self.window.backgroundColor = UIColor.yellowColor;
-    
     [self.window makeKeyAndVisible];
 }
 
